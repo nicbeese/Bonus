@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #22577a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+}
+p,
+h2 {
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: #38a3a5;
+    border-radius: 20px;
+}
+#headline {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+#sub-header {
+    width: 50%;
+    text-align: center;
+    margin-block: 1rem 2.5rem;
+}
+label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+.input-icon {
+    position: relative;
+  }
+  
+  .input-icon > i {
+    position: absolute;
+    display: block;
+    transform: translate(0, -50%);
+    top:36%;
+    left: 8%;
+    pointer-events: none;
+    width: 25px;
+    text-align: center;
+    font-style: normal;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(6, 54, 54);
+  }
+
+  
+#text-input {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-color: rgb(245, 244, 255);
+    margin-bottom: 1rem;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: rgb(6, 54, 54);
+}
+
+#submit-btn{
+    width: 140px;
+    padding: 5px 35px;
+    border-radius: 5px;
+    border: none;
+    background-color:  #ca6702;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    margin-bottom: 4rem;
+
+}
+#submit-btn:hover {
+    border: none;
+    background-color:  whitesmoke;
+    color: #ca6702;
+    cursor: pointer;
+}
+.bonuses {
+    width: 70%;
+    background-color: #22577a;
+    padding: 0 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+#money-for-next-tier {
+    margin: 4rem;
+    width: 70%;
+    font-weight: 500;
+}
