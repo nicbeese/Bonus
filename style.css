@@ -39,9 +39,8 @@ label {
 }
 .input-icon {
     position: relative;
-  }
-  
-  .input-icon > i {
+}
+.input-icon > i {
     position: absolute;
     display: block;
     transform: translate(0, -50%);
@@ -54,9 +53,7 @@ label {
     font-size: 1.3rem;
     font-weight: 500;
     color: rgb(6, 54, 54);
-  }
-
-  
+}
 #text-input {
     width: 120px;
     height: 30px;
@@ -70,7 +67,6 @@ label {
     font-size: 1.2rem;
     color: rgb(6, 54, 54);
 }
-
 #submit-btn{
     width: 140px;
     padding: 5px 35px;
@@ -82,7 +78,6 @@ label {
     font-weight: 500;
     font-family: inherit;
     margin-bottom: 2rem;
-
 }
 #submit-btn:hover {
     border: none;
