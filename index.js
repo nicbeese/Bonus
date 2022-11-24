@@ -8,15 +8,15 @@ submitBtn.addEventListener('click', function() {
     let actualMoney = textInput.value
 
 if (actualMoney < 325000) {
-    levelOneBonus.innerText = "no bonus"
+    levelOneBonus.innerText = "Sorry, no bonus"
 } else if (actualMoney < 406000) {
-    levelOneBonus.innerText = "Congratulations you are in line for £500 bonus"
+    levelOneBonus.innerText = "Congratulations you are getting a £500 bonus"
 } else if (actualMoney < 487000) {
-    levelOneBonus.innerText = "Congratulations you are in line for £1,000 bonus"
+    levelOneBonus.innerText = "Congratulations you are getting a £1,000 bonus"
 } else if (actualMoney < 649000) {
-    levelOneBonus.innerText = "Congratulations you are in line for £1,500 bonus"
+    levelOneBonus.innerText = "Congratulations you are getting a £1,500 bonus"
 } else {
-    levelOneBonus.innerText = "Congratulations you are in line for £2,000 bonus"
+    levelOneBonus.innerText = "Congratulations you are getting a £2,000 bonus"
 }
 
 const tier1 = 325000 - textInput.value
